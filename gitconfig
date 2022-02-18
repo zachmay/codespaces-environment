@@ -1,0 +1,19 @@
+[user]
+	name = Zachary May
+	email = zach@sector42.net
+[core]
+	filemode = false
+	excludesfile = /home/zmay/.gitingore
+[push]
+	default = current
+[diff]
+    tool = vimdiff
+[difftool]
+    prompt = false
+[alias]
+    ignore = update-index --assume-unchanged
+    unignore = update-index --no-assume-unchanged
+    ignored = !git ls-files -v | grep "^[[:lower:]]"
+    df = difftool
+[url "https://github"]
+	insteadOf = git://github
