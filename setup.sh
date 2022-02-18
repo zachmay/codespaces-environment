@@ -2,6 +2,8 @@
 
 echo "Running environment setup..."
 
-# Do custom setup stuff here
+# Copy dotfiles
+echo "Copying Dotfiles..."
+cp -R ./.* ~
 
 echo "OK!"
