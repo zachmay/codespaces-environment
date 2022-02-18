@@ -4,6 +4,9 @@ echo "Running environment setup..."
 
 # Copy dotfiles
 echo "Copying Dotfiles..."
-cp -R ./.* ~
+for file in dotfile/*; do
+    cp -R ./dotfiles/* ~
+    echo "... $file OK!"
+done
 
 echo "OK!"
