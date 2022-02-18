@@ -4,9 +4,3 @@
 [submodule "solarized"]
 	path = solarized
 	url = https://github.com/altercation/solarized.git
-[submodule "powerline-fonts"]
-	path = powerline-fonts
-	url = git@github.com:Lokaltog/powerline-fonts
-[submodule "vim/bundle/syntastic"]
-	path = vim/bundle/syntastic
-	url = https://github.com/scrooloose/syntastic.git

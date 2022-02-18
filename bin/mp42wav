@@ -1,3 +1,0 @@
-#!/bin/bash
-
-ffmpeg -i $1.mp4 -vn -acodec pcm_s16le -ar 44100 -ac 2 $1.wav

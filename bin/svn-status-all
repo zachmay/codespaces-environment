@@ -1,7 +1,0 @@
-#!/bin/bash
-
-echo "--- Status for global ---"
-svn status ~/web/globals
-
-echo "--- Status for cec ---"
-svn status ~/web/cec
